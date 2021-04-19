@@ -1,0 +1,32 @@
+
+body{
+    font-family: arial;
+}
+
+.book{
+    
+    color: #AAA;
+    
+}
+
+.footer{
+    color: #AAA;
+    font-weight: bold;
+}
+
+
+.parent-all{
+    border-width:2px 0 ;
+    border-color: #AAA;
+    border-style: solid;
+    padding:22px
+}
+
+.text-input-cont , .dispalyData{
+    /* background-color: #EEEEEE; */
+    background-image: linear-gradient(#EEE,#FFF);
+}
+
+#alert{
+    display: none;
+}

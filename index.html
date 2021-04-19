@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Bookmarker App</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h3 class="book font-weight-bolder my-5 ml-3">Bookmarker</h3>
+
+        <div class="row parent-all">
+            <div class="col-12 text-input-cont pt-5">
+                <div class="w-75 mx-auto">
+                    <h2 class="font-weight-bold text-center">
+                        Bookmark your favorite sites
+                    </h2>
+                    <div class="form-group my-5 text-center">
+                        <label for="sitename" class="font-weight-bold">Site Name</label>
+                        <input type="text" class="form-control" id="sitename" placeholder="Bookmark Name">
+
+                        <div class="alert alert-danger" role="alert" id="alert">
+                            
+                        </div>
+
+                        <label for="siteurl" class="font-weight-bold mt-4">Site URL</label>
+                        <input type="text" class="form-control" id="siteurl" placeholder="website URL">
+
+                        <div class="alert alert-danger" role="alert" id="alert">
+                            
+                        </div>
+
+                        <button class="btn btn-outline-primary mt-4" id="submit">Submit</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-12 mt-4 dispalyData " id="dispalyData">
+
+
+            </div>
+
+        </div>
+
+
+        <footer class="my-4">
+            <h6 class="footer">
+                &copy; 2021 Bookmarker Designed By Omar-Abdul-Khalek
+            </h6>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+    <script src="Js/jquery-3.5.1.slim.min.js"></script>
+    <script src="Js/popper.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/main.js"></script>
+</body>
+
+</html>
